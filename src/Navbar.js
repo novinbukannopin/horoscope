@@ -6,7 +6,7 @@ function Navbar() {
       <div class="container pt-4 ">
         <a
           class="navbar-brand"
-          href="#"
+          href="/#"
           className="fw-bold text-decoration-none text-black fs-4"
         >
           <img
