@@ -1,12 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Parent from "./Api";
+import Main from "./Content";
+import "bootstrap";
+import "bootstrap/dist/css/bootstrap.css";
 import "./index.css";
+import Navbar from "./Navbar";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Parent />
+    <Navbar />
+    <Main />
   </React.StrictMode>
 );
 
